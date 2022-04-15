@@ -1,5 +1,5 @@
 
-name: project
+name: Node CI
 
 
 on: 
@@ -29,7 +29,8 @@ jobs:
         run: |
            make install
         env:
-          Ci: true
+          CI: true
       - name: Run linter
         run: |
            make lint
+
