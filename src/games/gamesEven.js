@@ -16,7 +16,7 @@ export function rezult() {
             console.log("Let's try again, " + Name + "!");
     }
     if ((chislo % 2 == 0 && Otvet == "yes") || (chislo % 2 == 1 && Otvet == "no")) {
-        console.log("Corrent")
+        console.log("Correсt")
     } else {
         return console.log("'yes' is wrong answer ;(. Correct answer was 'no'."),
             console.log("Let's try again, " + Name + "!")
@@ -31,7 +31,7 @@ export function rezult() {
             console.log("Let's try again, " + Name + "!")
     }
     if ((chislo2 % 2 == 0 && Otvet2 == "yes") || (chislo2 % 2 == 1 && Otvet2 == "no")) {
-        console.log("Corrent")
+        console.log("Correсt")
     } else {
         return console.log("'yes' is wrong answer ;(. Correct answer was 'no'."),
             console.log("Let's try again, " + Name + "!")
@@ -45,7 +45,7 @@ export function rezult() {
             console.log("Let's try again, !")
     }
     if ((chislo3 % 2 == 0 && Otvet3 == "yes") || (chislo3 % 2 == 1 && Otvet3 == "no")) {
-        console.log("Corrent")
+        console.log("Correсt")
     } else {
         return console.log("'yes' is wrong answer ;(. Correct answer was 'no'."),
             console.log("Let's try again, " + Name + "!")
