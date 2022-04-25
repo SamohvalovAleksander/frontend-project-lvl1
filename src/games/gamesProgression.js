@@ -16,6 +16,7 @@ export function game() {
     console.log("Welcome to the Brain Games!")
     const Name = readlineSync.question('May I have your name? ');
     console.log("Hello, " + Name + "!");
+    console.log("What number is missing in the progression?")
     console.log(`Question: ${replace(get_progressive(random(5, 11)))}`)
     const Otvet = readlineSync.question("Your answer: ")
     if (Otvet == Massive1[number]) {

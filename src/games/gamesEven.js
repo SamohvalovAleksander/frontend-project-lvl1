@@ -42,7 +42,7 @@ export function rezult() {
 
     if (Otvet3 != "yes" && Otvet3 != "no") {
         return console.log("'yes' is wrong answer ;(. Correct answer was 'no'."),
-            console.log("Let's try again, !")
+            console.log("Let's try again, " + Name + "!")
     }
     if ((chislo3 % 2 == 0 && Otvet3 == "yes") || (chislo3 % 2 == 1 && Otvet3 == "no")) {
         console.log("Correсt")
