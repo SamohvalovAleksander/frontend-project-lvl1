@@ -1,4 +1,4 @@
 #!/usr/bin/env node
 
-import { kalkulator } from "../src/games/gamesCalc.js";
-kalkulator()
+import { calculator } from "../src/games/gamesCalc.js";
+calculator()

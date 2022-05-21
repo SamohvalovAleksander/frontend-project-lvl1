@@ -1,6 +1,6 @@
 import readlineSync from 'readline-sync';
 
-export function kalkulator() {
+export function calculator() {
     let chislo = random()
     let chislo2 = random()
     let chislo3 = random()
